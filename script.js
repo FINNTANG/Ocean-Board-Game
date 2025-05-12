@@ -503,7 +503,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add game version
         const gameVersion = document.createElement('div');
         gameVersion.className = 'game-version';
-        gameVersion.textContent = 'Ocean of Possibilities v1.0';
+        gameVersion.textContent = 'Tidebound v1.0';
         gameContainer.appendChild(gameVersion);
         
         // Render start screen
@@ -630,7 +630,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 添加logo
         const logo = document.createElement('div');
-        logo.innerHTML = `<img src="logo.svg" alt="Ocean of Possibilities Logo" style="width: 180px; height: 180px; filter: drop-shadow(0 4px 8px rgba(99, 164, 245, 0.3));">`;
+        logo.innerHTML = `<img src="logo.svg" alt="Tidebound Logo" style="width: 180px; height: 180px; filter: drop-shadow(0 4px 8px rgba(99, 164, 245, 0.3));">`;
         logo.style.animation = 'floating 6s ease-in-out infinite';
         
         // 添加logo浮动动画
@@ -658,8 +658,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 标题
         const title = document.createElement('h1');
-        title.textContent = 'Ocean of Possibilities';
-        title.style.fontSize = '3.5rem';
+        title.textContent = 'Tidebound';
+        title.style.fontSize = '4.5rem';
         title.style.fontWeight = '300';
         title.style.color = '#2563EB';
         title.style.textAlign = 'center';
@@ -3031,7 +3031,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // 添加版本标识
         const gameVersion = document.createElement('div');
         gameVersion.className = 'game-version';
-        gameVersion.textContent = 'Ocean of Possibilities v1.0';
+        gameVersion.textContent = 'Tidebound v1.0';
         gameContainer.appendChild(gameVersion);
 
         // 容器
@@ -3060,7 +3060,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 添加logo
         const logoImg = document.createElement('div');
-        logoImg.innerHTML = `<img src="logo.svg" alt="Ocean of Possibilities Logo" style="width: 120px; height: 120px; filter: drop-shadow(0 4px 8px rgba(99, 164, 245, 0.3));">`;
+        logoImg.innerHTML = `<img src="logo.svg" alt="Tidebound Logo" style="width: 120px; height: 120px; filter: drop-shadow(0 4px 8px rgba(99, 164, 245, 0.3));">`;
         logoImg.style.animation = 'floating 6s ease-in-out infinite';
         
         logoContainer.appendChild(logoImg);
