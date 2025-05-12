@@ -147,6 +147,11 @@ h1::after {
     background-color: #60A5FA;
 }
 
+/* 移除主页标题的下划线，只保留动画装饰线 */
+h1.main-title::after {
+    display: none;
+}
+
 h2 {
     font-size: 1.25rem;
     font-weight: 500;

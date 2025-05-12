@@ -657,7 +657,7 @@ document.addEventListener('DOMContentLoaded', function() {
         titleContainer.style.transitionDelay = '0.3s'; // 延迟了标题动画，先显示logo
         
         // 标题
-        const title = document.createElement('h1');
+        const title = document.createElement('h1'); title.className = 'main-title';
         title.textContent = 'Tidebound';
         title.style.fontSize = '4.5rem';
         title.style.fontWeight = '300';
@@ -856,7 +856,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function renderCharacterSelectScreen(screenElement) {
         // Title
-        const title = document.createElement('h1');
+        const title = document.createElement('h1'); title.className = 'main-title';
         title.textContent = 'Selecting Participating Occupations';
         
         // Character grid
@@ -1103,7 +1103,7 @@ document.addEventListener('DOMContentLoaded', function() {
         storyContainer.style.padding = '0 1rem';
         
         // Title
-        const title = document.createElement('h1');
+        const title = document.createElement('h1'); title.className = 'main-title';
         title.textContent = 'The New Coastal City Initiative';
         title.style.textAlign = 'center';
         title.style.marginBottom = '2rem';
@@ -2533,7 +2533,7 @@ document.addEventListener('DOMContentLoaded', function() {
         outerContainer.appendChild(yearInfo);
         
         // 标题
-        const title = document.createElement('h1');
+        const title = document.createElement('h1'); title.className = 'main-title';
         title.textContent = 'Record Event Card Draw';
         title.style.marginBottom = '2rem';
         title.style.textAlign = 'center';
